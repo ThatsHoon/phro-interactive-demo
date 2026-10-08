@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "phro-interactive-demo",
+  "description": "Marketplace for the phro-interactive-demo plugin.",
+  "owner": {
+    "name": "thatshoon"
+  },
+  "plugins": [
+    {
+      "name": "phro-interactive-demo",
+      "description": "Turn an app brief (features, flows, state rules) into a working, presentable demo simulator.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

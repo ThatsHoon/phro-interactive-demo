@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Demo App · Interactive Demo</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="studio">
+    <strong class="wordmark">Demo App <span data-text="studioTag"></span></strong>
+    <button id="presentation" class="quiet" aria-pressed="false" data-text="presentation"></button>
+  </header>
+
+  <main class="workspace">
+    <section class="stage" aria-label="Device preview" data-text-label="device">
+      <div id="device-wrap">
+        <div id="device" class="device">
+          <div id="app"></div>
+          <div id="toast" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+      <p class="caption" data-text="caption"></p>
+    </section>
+
+    <aside class="console" aria-label="Presenter console" data-text-label="console">
+      <section>
+        <div class="section-head"><h2 data-text="scenarios"></h2><span data-text="autoplay"></span></div>
+        <div id="presets" class="presets"></div>
+        <div class="playback">
+          <button id="pause" data-play="pause" aria-pressed="false">Pause</button>
+          <button id="next" data-play="next" data-text="next"></button>
+          <button data-play="reset" data-text="reset"></button>
+        </div>
+        <div class="track-info"><b id="scenario-name"></b><span id="scenario-step"></span></div>
+        <div class="track"><i id="scenario-progress"></i></div>
+      </section>
+
+      <section>
+        <div class="section-head"><h2 data-text="controls"></h2></div>
+        <div id="controls"></div>
+        <div id="toggles"></div>
+      </section>
+
+      <section class="state-panel">
+        <div class="section-head"><h2 data-text="state"></h2><span id="entity-tag"></span></div>
+        <dl id="readout"></dl>
+        <div class="clock" id="sim-clock"></div>
+      </section>
+
+      <details open>
+        <summary data-text="timeline"></summary>
+        <ol id="timeline"></ol>
+      </details>
+    </aside>
+  </main>
+
+  <script src="sim.js"></script>
+  <script src="domain.js"></script>
+  <script src="ui.js"></script>
+  <script src="views.js"></script>
+</body>
+</html>
