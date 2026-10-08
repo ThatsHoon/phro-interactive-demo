@@ -1,6 +1,7 @@
 {
   "name": "phro-interactive-demo",
   "version": "0.2.0",
+  "license": "MIT",
   "description": "Build presentation-ready interactive demos of any app: a state simulator with a device screen, presenter console, scenario autoplay and a controllable clock.",
   "author": {
     "name": "thatshoon"

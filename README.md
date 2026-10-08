@@ -131,3 +131,7 @@ skills/interactive-demo/
 ```
 
 스타터의 브라우저 검증은 Playwright가 필요합니다(`npm i -D playwright`). 없으면 설치된 Edge나 Chrome을 사용합니다.
+
+## 라이선스
+
+[MIT](LICENSE)
