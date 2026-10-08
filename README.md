@@ -24,9 +24,11 @@
 ## 설치
 
 ```bash
-claude plugin marketplace add ThatsHoon/phro-interactive-demo
+claude plugin marketplace add ThatsHoon/phro
 claude plugin install phro-interactive-demo@phro
 ```
+
+[`phro`](https://github.com/ThatsHoon/phro) 마켓플레이스로 배포됩니다.
 
 ## 사용법
 
@@ -127,7 +129,7 @@ skill-creator 방식으로 같은 요청을 **스킬 사용 / 미사용**으로 
 ## 플러그인 구성
 
 ```
-.claude-plugin/        plugin.json, marketplace.json
+.claude-plugin/        plugin.json
 skills/interactive-demo/
 ├─ SKILL.md            8단계 워크플로와 계약
 ├─ references/         intake.md(질문지) · rules-spec.md(명세 형식) · pitfalls.md(자주 하는 실수 17개)
