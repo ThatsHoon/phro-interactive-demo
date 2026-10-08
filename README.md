@@ -25,7 +25,7 @@
 
 ```bash
 claude plugin marketplace add ThatsHoon/phro-interactive-demo
-claude plugin install phro-interactive-demo@phro-interactive-demo
+claude plugin install phro-interactive-demo@phro
 ```
 
 ## 사용법

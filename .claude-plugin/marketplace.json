@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "phro-interactive-demo",
+  "name": "phro",
   "description": "Marketplace for the phro-interactive-demo plugin.",
   "owner": {
     "name": "thatshoon"
