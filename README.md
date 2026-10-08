@@ -70,9 +70,11 @@ demo/
 
 ## 적용 사례
 
-아래 두 데모는 벤치마크 3차에서 각각 한 문단짜리 요청만으로 만들어진 결과물입니다. 시안은 없었습니다.
+아래 두 데모는 벤치마크 3차에서 각각 한 문단짜리 요청만으로 만들어진 결과물입니다. 시안은 없었습니다. 브라우저에서 바로 실행해 볼 수 있고, 소스는 [`examples/`](examples)에 있습니다.
 
 ### 1. 간편결제 승인 플로우 (카드사 미팅용)
+
+▶ **[라이브 데모](https://thatshoon.github.io/phro-interactive-demo/examples/payment/)** · [규칙 명세](examples/payment/RULES.md) · 단축키 `1`~`7` 시나리오, `P` 일시정지, `N` 다음 단계
 
 ![결제 승인 후 푸시 알림](images/payment-notification.png)
 
@@ -81,6 +83,8 @@ demo/
 - 규칙 테스트 32개, 브라우저 검증 통과
 
 ### 2. 배달 주문 추적 (투자자 데모데이용)
+
+▶ **[라이브 데모](https://thatshoon.github.io/phro-interactive-demo/examples/delivery/)** · [규칙 명세](examples/delivery/RULES.md) · 단축키 `1`~`6` 시나리오, `P` 일시정지, `N` 다음 단계
 
 ![배달 중 라이더 통신 끊김 — 마지막 위치 표시](images/delivery-rider-lost.png)
 
@@ -128,6 +132,7 @@ skills/interactive-demo/
 ├─ SKILL.md            8단계 워크플로와 계약
 ├─ references/         intake.md(질문지) · rules-spec.md(명세 형식) · pitfalls.md(자주 하는 실수 17개)
 └─ starter/            바로 실행되는 도메인 무관 스타터 (node test.cjs · node browser.test.cjs 통과)
+examples/              적용 사례 데모 2개 (GitHub Pages로 배포)
 ```
 
 스타터의 브라우저 검증은 Playwright가 필요합니다(`npm i -D playwright`). 없으면 설치된 Edge나 Chrome을 사용합니다.
